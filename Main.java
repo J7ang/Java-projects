@@ -4,6 +4,7 @@
 //Date: 10/28/2024
 //Middlesex college
 //////////////////////////
+//the main code that runs the application
 
 package Bank;
 
