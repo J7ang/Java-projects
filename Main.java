@@ -27,7 +27,7 @@ public class Main {
 			System.out.print("pin: ");
 			int pin = scan.nextInt();
 		
-			Bank account = new Bank(accountNum, pin);
+			new Bank(accountNum, pin);
 		
 		
 			if (Bank.x == true) {
@@ -35,7 +35,7 @@ public class Main {
 				System.out.println(dollar.format(Bank.balance));
 		
 		
-				Bank money = new Bank(Bank.balance);
+				new Bank(Bank.balance);
 		
 				System.out.println("exited");
 				break;
